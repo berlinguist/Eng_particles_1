@@ -107,7 +107,7 @@ $.widget("ui.QuestionFrame", {
 							},
 							
 			"FreeTextQuestion", {
-							q:              "Imagine a situation that could provide some background for the actor's utterance. Keep this brief -- if you can't imagine a situation where this audio clip would sound normal, say so.",
+							q:              "Imagine a situation that could provide some background for the actor's utterance. If you can't imagine a situation where this audio clip would sound normal, say so.",
 	                        as:             ["1","2","3","4","5"],
 	                        hasCorrect:     false,
 							followupMessage: null,
