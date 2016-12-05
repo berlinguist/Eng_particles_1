@@ -2,7 +2,7 @@
 
 //****PUT "intro" back into the seq vars for actual experiment****
 
-var shuffleSequence = seq("intro", "first", sepWith("sep", "practice"), "next", sepWith("sep", rshuffle("f", rshuffle("item_type1"))));
+var shuffleSequence = seq("intro", "first", sepWith("sep", "pract"), "next", sepWith("sep", rshuffle("f", rshuffle("item_type1"))));
 //var practiceItemTypes = ["practice"];
 var centerItems = false;
 
@@ -58,7 +58,7 @@ var items = [
     //
     // Three practice items for self-paced reading (one with a comprehension question).
     //
-    ["practice", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/confused_huh_never_heard_that_before.wav", s: "Huh I've never heard that before", target: "Each can with a label is blue.", hasCorrect: 1}],
+    ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/confused_huh_never_heard_that_before.wav", s: "Huh I've never heard that before", target: "Each can with a label is blue.", hasCorrect: 1}],
 
      // ["practice", "AudioPresentation", {f: "https://dl.dropboxusercontent.com/u/20613672/3x3/1.wav", s: "Oh, I thought apples were in the sunflower family", target: "Each can with a label is blue.", hasCorrect: 1},
      // "AcceptabilityJudgment",       {s: "The actress was:" }
@@ -78,7 +78,7 @@ var items = [
 
 //  [["2_2_ir_some",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "You like all your plants to have their own markers.  This year you had someone plant your seeds in pots for you and you decide that you will only hire them again if they correctly put all the plants next to markers.", target: "Some of the plants are missing markers.", hasCorrect: 0}],
 //  [["1_1_ir_all",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "Your neighbor always plants his potted plants a little too early, so you always peek through the fence to check that his plants are started before you begin work on your own garden.  Your other neighbor has the same strategy as you and wants to know how things look.", target: "All of the seeds have sprouted.", hasCorrect: 0}],
-    [["item_type1",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "You like all your plants to have their own markers.  This year you had someone plant your seeds in pots for you and you decide that you will only hire them again if they correctly put all the plants next to markers.", target: "Some of the plants are missing markers.", hasCorrect: 0}],
+   // [["item_type1",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "You like all your plants to have their own markers.  This year you had someone plant your seeds in pots for you and you decide that you will only hire them again if they correctly put all the plants next to markers.", target: "Some of the plants are missing markers.", hasCorrect: 0}],
 //  [["1_2_ir_all",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "You like all your plants to have their own markers.  This year you had someone plant your seeds in pots for you and you decide that you will only hire them again if they correctly put all the plants next to markers.", target: "All of the plants are missing markers.", hasCorrect: 0}],
 //  [["2_1_ir_all",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "Your neighbor always plants his potted plants a little too early, so you always peek through the fence to check that his plants are started before you begin work on your own garden.  Your other neighbor has the same strategy as you and wants to know how things look.", target: "All of the seeds have sprouted.", hasCorrect: 0}],
 //     [["2_1_ir_some",2], "PictureJudgment", {f: "http://nirvana.ucsc.edu/PragModulation/Best-Exp/Images/2.jpg", s: "Your neighbor always plants his potted plants a little too early, so you always peek through the fence to check that his plants are started before you begin work on your own garden.  Your other neighbor has the same strategy as you and wants to know how things look.", target: "Some of the seeds have sprouted.", hasCorrect: 0}],
