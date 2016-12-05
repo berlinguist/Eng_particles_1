@@ -62,9 +62,9 @@ var items = [
     // Three practice items for self-paced reading (one with a comprehension question).
     //
     //*** Version 1, pilot ***
-    ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/confused_huh_never_heard_that_before.wav", s: "Huh I've never heard that before", target: "Each can with a label is blue.", hasCorrect: 1}],
+    //["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/confused_huh_never_heard_that_before.wav", s: "Huh I've never heard that before", target: "Each can with a label is blue.", hasCorrect: 1}],
     //*** Version 2, pilot ***
-   // ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/decl_what_lot_of_cakes_to_choose_from.wav", s: "What there are a lot of cakes to choose from", target: "Each can with a label is blue.", hasCorrect: 1}],
+   ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/decl_what_lot_of_cakes_to_choose_from.wav", s: "What there are a lot of cakes to choose from", target: "Each can with a label is blue.", hasCorrect: 1}],
   // *** Version 3, pilot ***
   //  ["pract", "QuestionFrame", {f: "https://dl.dropboxusercontent.com/u/20613672/allDiff/exclam_oh_on_the_phone.wav", s: "Oh I'm on the phone", target: "Each can with a label is blue.", hasCorrect: 1}],
 
