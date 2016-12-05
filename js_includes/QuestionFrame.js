@@ -66,7 +66,7 @@ $.widget("ui.QuestionFrame", {
             triggers:    [3,4,5],
             children:    [
 			"AudioPresentation", {"f": this.options.f},
-			"FlashSentence", {	s: "Oh I'm on the phone"},
+			"FlashSentence", {	s: "What there are a lot of cakes to choose from"},
 			"QuestionSide", {q: "How natural does the entire utterance sound?", 
 			            as: ["1", "2", "3", "4", "5"],
 			            presentAsScale: true,
