@@ -2,5 +2,7 @@
     color: red;
 }
 .next-item-message {
-    font-style: italic;
+    width: 625px;
+	font-weight: bold;
+	margin-top: 2em;
 }
