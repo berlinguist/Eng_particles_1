@@ -2,8 +2,8 @@
 
 //****PUT "intro" back into the seq vars for actual experiment****
 
-var shuffleSequence = seq("intro", sepWith("sep", "practice"), "next", sepWith("sep", rshuffle("f", rshuffle("item_type1"))));
-var practiceItemTypes = ["practice"];
+var shuffleSequence = seq("intro", "first", sepWith("sep", "practice"), "next", sepWith("sep", rshuffle("f", rshuffle("item_type1"))));
+//var practiceItemTypes = ["practice"];
 var centerItems = false;
 
 var defaults = [
@@ -52,7 +52,7 @@ var items = [
          html: { include: "example_intro.html" },}
     ],
 
-  ["first", "Separator", {normalMessage: "We will start with some practice sentences.  Please press any key to continue.", transfer: "keypress"}],
+  ["first", "Separator", {normalMessage: "After you listen to the following audio clip, you will have 5 seconds to judge the utterance.  Use the mouse to select your choice.  You will then be asked three additional questions. After the initial question, you will be able to listen to the audio again as many times as you like. To continue, press any key.", transfer: "keypress"}],
 
 
     //
