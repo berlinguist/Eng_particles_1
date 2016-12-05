@@ -6,7 +6,7 @@ $.widget("ui.QuestionFrame", {
         this.utils = this.options._utils;
         this.finishedCallback = this.options._finishedCallback;
 		
-        var questionField = "Question (NULL if none).";
+        var questionField = "After you hear the following audio clip, you will have 5 seconds to judge the utterance. Use the mouse to select your choice.  You will then be asked three additional questions. After the initial question, you will be able to listen to the audio again as many times as you like.";
         var answerField = "Answer";
         var correctField = "Whether or not answer was correct (NULL if N/A)";
         var timeField = "Time taken to answer.";
@@ -65,8 +65,8 @@ $.widget("ui.QuestionFrame", {
             options:     this.options,
             triggers:    [3,4,5],
             children:    [
-				"AudioPresentation", {"f": this.options.f},
-			"FlashSentence", {	s: "Huh I've never heard that before"},
+			"AudioPresentation", {"f": this.options.f},
+			"FlashSentence", {	s: "What there are a lot of cakes to choose from"},
 			"QuestionSide", {q: "How natural does the entire utterance sound?", 
 			            as: ["1", "2", "3", "4", "5"],
 			            presentAsScale: true,
